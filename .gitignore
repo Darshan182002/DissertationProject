@@ -1,0 +1,28 @@
+# Data — never commit to version control (NDA + repo hygiene)
+data/raw/
+data/processed/
+data/private/
+*.xlsx
+*.parquet
+*.csv
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Models
+models/*.pkl
+models/*.joblib

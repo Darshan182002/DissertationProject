@@ -1,0 +1,1 @@
+"""Streamlit prototype dashboard for cashflow forecasting."""

@@ -1,0 +1,9 @@
+Baseline vs SMOGN-augmented results:
+Target     Model       Baseline   Augmented    Change
+-------------------------------------------------------
+accrual    XGBoost        1.051       1.051  +0.000 worse
+accrual    LightGBM       0.886       0.886  +0.000 worse
+accrual    Prophet        0.851       0.851  +0.000 worse
+projected  XGBoost        1.176       1.176  +0.000 worse
+projected  LightGBM       0.806       0.806  +0.000 worse
+projected  Prophet        0.957       0.957  +0.000 worse
